@@ -1,12 +1,71 @@
-body{
-    background-color: rgb(61, 61, 61);
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
 }
 
-.headerC{
-    height: 20px;
-    align-items: center;
-    color: aliceblue;
-    text-align: center;
-    background-color: rgb(53, 53, 53);
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
 
+h1,
+h2 {
+    color: #333;
+}
+
+.section-title {
+    border-bottom: 2px solid #7604c2;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    color: #690099;
+}
+
+.contact-info {
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+.experience,
+.education,
+.skills {
+    margin-bottom: 20px;
+}
+
+.experience-item,
+.education-item {
+    margin-bottom: 10px;
+}
+
+.experience-item h3,
+.education-item h3 {
+    margin: 0;
+}
+
+.experience-item p,
+.education-item p {
+    margin: 5px 0;
+}
+
+.skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills ul li {
+    background: #40008a;
+    color: white;
+    padding: 5px;
+    margin: 5px 0;
+    display: inline-block;
+    border-radius: 5px;
 }
